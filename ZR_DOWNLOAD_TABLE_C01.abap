@@ -3,8 +3,8 @@
 *                       github.com/vitorcarlessi/                      *
 *                                                                      *
 *======================================================================*
-* Program.....: ZHR_DOWNLOAD_TABLE                                     *
-* Include.....: ZHR_DOWNLOAD_TABLE_C01                                 *
+* Program.....: ZR_DOWNLOAD_TABLE                                      *
+* Include.....: ZR_DOWNLOAD_TABLE_C01                                  *
 * Module......: ALL                                                    *
 * Description.: Download Table Data to CSV File                        *
 *----------------------------------------------------------------------*
