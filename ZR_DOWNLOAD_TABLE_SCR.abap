@@ -14,7 +14,10 @@
 *----------------------------------------------------------------------*
 *              Screen                                                  *
 *----------------------------------------------------------------------*
+TABLES: rsrd1.
+
 SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE text-b01.
-PARAMETERS: p_rsrd1  TYPE rsrd1-tbma_val OBLIGATORY,
-            p_files  TYPE char1          OBLIGATORY DEFAULT 1.
+SELECT-OPTIONS: s_rsrd1 FOR  rsrd1-tbma_val OBLIGATORY NO INTERVALS.
+PARAMETERS:     p_csv_p TYPE localfile      OBLIGATORY.
+PARAMETERS:     p_files TYPE char1          OBLIGATORY DEFAULT 1.
 SELECTION-SCREEN END OF BLOCK b1.

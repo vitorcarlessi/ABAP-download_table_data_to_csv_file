@@ -20,6 +20,10 @@ INITIALIZATION.
   "Class instance
   CREATE OBJECT go_download_table.
 
+AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_csv_p.
+  "Get Directory Browser
+  go_download_table->get_directory_browser( ).
+
 START-OF-SELECTION.
   "Start Full Process
   go_download_table->full_process( ).
